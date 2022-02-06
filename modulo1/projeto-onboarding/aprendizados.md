@@ -1,0 +1,2 @@
+Aprendizados da semana
+    Nessa semana de onboarding da Labenu, **aprendi** a trabalhar no terminal **Git Bash** e seus comandos e os que trabalhei mais foram: cd, cd .., clear a esse foi muito kkkk, cat, touch, mkdir,grep e o ls e os comandos Git que faz a interface ao **GitHub** que são eles: git branch, git status, git add, git add -- all, git commit -m, git checkout.
