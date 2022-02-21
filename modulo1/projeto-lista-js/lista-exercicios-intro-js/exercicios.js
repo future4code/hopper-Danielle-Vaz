@@ -62,45 +62,54 @@ console.log(coresFavoritas)
 }
 
 // EXERCÍCIO 06
-function retornaStringEmMaiuscula(string) {
-  // implemente sua lógica aqui
-let fraseMinuscula = "viva a vida"
-console.log(fraseMinsuscula.toUppercase())
+function retornaStringEmMaiuscula(str) {
+let string = str.toUpperCase();
+return string;
 }
-
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngressos) {
   // implemente sua lógica 
-
+let custo1 = Number(3000)
+let valorIngresso = Number(100)
+return precisaSerVendido = custo/valorIngressos
 }
-
 // EXERCÍCIO 08
-function checaStringsMesmoTamanho(string1, string2) {
-  // implemente sua lógica aqui
+function checaStringsMesmoTamanho(palavra1, palavra2) {
+let primeiraString = palavra1;
+let segundaString = palavra2;
 
+if (primeiraString.length === segundaString.length) {
+  return true;
+} else
+return false;
 }
-// EXERCÍCIO 09
-function retornaPrimeiroElemento(array) {
-  // implemente sua lógica aqui
 
+// EXERCÍCIO 09
+function retornaPrimeiroElemento(frutas) {
+let sacolao = frutas
+return sacolao[0];
 }
 
 // EXERCÍCIO 10
-function retornaUltimoElemento(array) {
-  // implemente sua lógica aqui
-
+function retornaUltimoElemento(frutas) {
+let sacolao = frutas;
+return(sacolao[sacolao.length - 1]);
 }
-
+ 
 // EXERCÍCIO 11
-function trocaPrimeiroEUltimo(array) {
-  // implemente sua lógica aqui
+function trocaPrimeiroEUltimo(frutas) {
+let sacolao = frutas
+let primeiraPosicao = sacolao[0];
+let ultimaPosicao = sacolao[sacolao.length - 1];
+sacolao[sacolao.length - 1] = primeiraPosicao
+sacolao[0] = ultimaPosicao
 
+return sacolao
 }
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
-  // implemente sua lógica aqui
-
+  return string1.localeCompare(string2,  undefined, { sensitivity: 'base' }) === 0;
 }
 
 // EXERCÍCIO 13
