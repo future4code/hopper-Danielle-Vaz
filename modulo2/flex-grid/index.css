@@ -1,0 +1,33 @@
+header{
+background-color:mediumvioletred;
+height:70px;
+display:flex;
+justify-content:space-between;
+
+}
+.logo{
+display:flex;
+align-items:center;
+text-indent:10px;
+font-style:unset;
+
+}
+.logo >img{
+width:30px;
+margin:10px 10px 17px;
+
+}
+.BOTÃO-LOGIN{
+display:flex;
+align-items:center;
+margin:10px;
+
+}
+#container{
+background-color: ;
+height:;
+padding: ;
+display:flex;
+flex-direction:column;
+justify-content:baseline;
+}
