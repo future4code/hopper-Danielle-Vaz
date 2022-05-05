@@ -1,0 +1,20 @@
+.App {
+ width:500px;
+ border: 1px solid black;
+ margin: auto
+}
+
+.UsuarioInput{
+
+}
+
+.MensagemInput{
+  width: 70%
+}
+.Mensagens{
+  height:70vh
+}
+
+.ContainerEnviarMensagens{
+  display:flex
+}
